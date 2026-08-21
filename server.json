@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/anthropic_billing-mcp",
+  "title": "Anthropic Billing",
+  "description": "Anthropic organization usage and cost reporting through an admin API key connected by the user.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/anthropic_billing-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_anthropic_billing"
+    }
+  ]
+}
